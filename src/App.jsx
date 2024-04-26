@@ -1,13 +1,39 @@
-import { useState } from "react";
-
+import React from "react";
+import ReactDOM from "react-dom/client";
 import "./App.css";
 
-function App() {
+/**
+ * Header
+ * Logo
+ * Nav items
+ * Body
+ * meal of the day
+ * Search /filter by country /cuisine
+ * Recipe container
+ * youtube tutorial video
+ * ingredients list
+ * footer
+ * Copyright
+ * Links
+ * contact
+ */
+const Header = () => {
   return (
-    <>
-      <h1>Recipe hub</h1>
-    </>
+    <div className="header">
+      <div className="logo-container">
+        <img className="logo" src="" />
+      </div>
+      <div className="nav-items">
+        <ul>
+          <li>Home</li>
+          <li>About us</li>
+          <li>Contact us</li>
+        </ul>
+      </div>
+    </div>
   );
-}
+};
 
-export default App;
+const Applayout = () => {
+  return <div class="app">//Header</div>;
+};

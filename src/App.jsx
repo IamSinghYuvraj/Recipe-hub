@@ -17,7 +17,7 @@ import "./App.css";
  * Links
  * contact
  */
-const Header = () => {
+export const Header = () => {
   return (
     <div className="header">
       <div className="logo-container">
@@ -35,7 +35,11 @@ const Header = () => {
 };
 
 const Applayout = () => {
-  return <div className="app">//Header</div>;
+  return (
+    <div className="app">
+      <Header />
+    </div>
+  );
 };
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

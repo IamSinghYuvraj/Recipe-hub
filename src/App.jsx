@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import logo from "./utils/Recipe web logo.png";
 import "./App.css";
 
 /**
@@ -21,7 +22,7 @@ export const Header = () => {
   return (
     <div className="header">
       <div className="logo-container">
-        <img className="logo" src="" />
+        <img className="logo" src={logo} />
       </div>
       <div className="nav-items">
         <ul>

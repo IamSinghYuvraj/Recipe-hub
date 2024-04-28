@@ -35,5 +35,9 @@ const Header = () => {
 };
 
 const Applayout = () => {
-  return <div class="app">//Header</div>;
+  return <div className="app">//Header</div>;
 };
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(<Applayout />);

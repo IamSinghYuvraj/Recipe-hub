@@ -35,6 +35,14 @@ export const Header = () => {
   );
 };
 
+export const Body = () => {
+  return (
+    <div className="body">
+      <div className="search">Search</div>
+    </div>
+  );
+};
+
 const Applayout = () => {
   return (
     <div className="app">
